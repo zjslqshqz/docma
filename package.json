@@ -1,6 +1,6 @@
 {
   "name": "zjslqshqz-docma",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A powerful dev-tool to easily generate beautiful HTML documentation from Javascript (JSDoc), Markdown and HTML files.",
   "repository": "https://github.com/zjslqshqz/docma",
   "license": "MIT",
@@ -76,7 +76,7 @@
   "dependencies": {
     "bluebird": "^3.6.0",
     "chalk": "^4.1.2",
-    "zjslqshqz-docma-template-zebra":"^0.0.1",
+    "zjslqshqz-docma-template-zebra":"^0.0.2",
     "dustjs-linkedin": "^3.0.1",
     "easy-table": "^1.2.0",
     "express": "^4.18.2",
