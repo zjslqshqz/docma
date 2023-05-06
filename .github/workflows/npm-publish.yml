@@ -15,10 +15,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm ci
-      - run: npm test
-      - run: cd templates/zebra && npm ci
-      - run: cd templates/zebra && npm publish
+      - run: npm ci && npm test
+      - run: cd templates/zebra && npm ci && npm publish
 
   publish-templates-npm:
     environment: npm_token
@@ -30,8 +28,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: cd templates/zebra && npm ci
-      - run: cd templates/zebra && npm publish
+      - run: cd templates/zebra && npm ci && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.PUBLISH_TOKEN}}
 #  publish-core-npm:
