@@ -1,6 +1,6 @@
 {
   "name": "zjslqshqz-docma",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A powerful dev-tool to easily generate beautiful HTML documentation from Javascript (JSDoc), Markdown and HTML files.",
   "repository": "https://github.com/zjslqshqz/docma",
   "license": "MIT",
