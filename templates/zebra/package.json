@@ -1,8 +1,8 @@
 {
-  "name": "docma-template-zebra",
-  "version": "2.3.1",
+  "name": "zjslqshqz-docma-template-zebra",
+  "version": "0.0.1",
   "description": "Zebra - Default template for Docma. https://github.com/onury/docma",
-  "repository": "https://github.com/onury/docma/tree/master/templates/zebra",
+  "repository": "https://github.com/zjslqshqz/docma/tree/master/templates/zebra",
   "license": "MIT",
   "author": "Onur Yıldırım <onur@cutepilot.com>",
   "main": "index.js",
@@ -22,11 +22,11 @@
     "template"
   ],
   "peerDependencies": {
-    "docma": ">=2.0.0"
+    "zjslqshqz-docma": "^0.0.1"
   },
   "devDependencies": {
-    "less": "^3.9.0",
+    "less": "^4.1.3",
     "less-plugin-clean-css": "^1.5.1",
-    "uglify-js": "^3.4.9"
+    "uglify-js": "^3.17.4"
   }
 }
