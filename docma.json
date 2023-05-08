@@ -35,11 +35,10 @@
         "base": "/docma",
         "entrance": "content:home",         // use "api:your-lib" to set the entrance to a JSAPI page
         "routing": "path",
-        "server": "github",
-        "favicon": "./doc/favicon.ico"      // local path of favicon to be copied
+        "server": "github"
     },
     "template": {
-        "path": "./templates/zebra",        // set to "zebra" (this path is for this repo only)
+        "path": "./node_modules/zjslqshqz-docma-template-zebra",        // set to "zebra" (this path is for this repo only)
         "options": {
             "title": {
                 "label": "Docma",
@@ -156,20 +155,9 @@
         },
         // Content sources
         // markdown
-        "./CHANGELOG.md",
-        "./doc/*.md",
-        // "./LICENSE:md",
-        {
-            // renamed markdown (deep routes)
-            "templates/guide": "./doc/templates/guide.md",
-            "templates/filters": "./doc/templates/filters.md",
-            "templates/zebra": "./templates/zebra/README.md",
-            // renamed html file
-            "home": "./doc/front.html"
-        }
+        "./CHANGELOG.md"
     ],
     "assets": {
-        "/img": ["./doc/img/*.*"]
     },
     "dest": "../onury.github.io/docma",
     "clean": true
